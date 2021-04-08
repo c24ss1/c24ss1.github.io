@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style type="text/css">
+	#helpBird{
+		width:;
+		height:;
+		background-image:url(https://i.pinimg.com/originals/2d/11/05/2d1105ea7924b31b182313f80e2d3d0a.jpg);
+	}
+
+
+
+</style>
+
+</head>
+<body>
+<div id="helpBird">
+	
+</div>
+<script type="text/javascript">
+	
+	function makeBird() {
+		
+		var bird = document.createElement("div");
+		document.body.appendChild(bird);
+		bird.style.width = "200px";
+		bird.style.height = "200px";
+		bird.style.backgroundRepeat = "no-repeat";
+		bird.style.display = "inline-block";
+		bird.style.backgroundImage = "url(https://i.pinimg.com/originals/2d/11/05/2d1105ea7924b31b182313f80e2d3d0a.jpg)";
+		bird.style.backgroundSize = "contain";
+
+	}
+makeBird();			
+document.addEventListener("click", makeBird)
+
+</script>
+</body>
+</html>
