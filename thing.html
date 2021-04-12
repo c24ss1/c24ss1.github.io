@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#gunks{
+			width:300px;
+			height:300px;
+/*			background-color:red;
+*/			background-size:contain;
+			background-repeat:no-repeat;
+			/*background-image:url(https://cdn2.apstatic.com/photos/climb/113715013_medium_1508193862.jpg);*/
+		}
+	</style>
+</head>
+<body>
+
+	<center><h2>CLICK!</h2>
+
+		<div id="gunks"></div>
+
+	</center>
+	<script type="text/javascript">
+		var box = document.getElementById("gunks");
+
+
+		var routes = [
+
+		"url(file:///Users/student/Desktop/Screen%20Shot%202021-04-12%20at%2011.54.40%20AM.png)", 
+
+
+		"url(file:///Users/student/Desktop/Screen%20Shot%202021-04-12%20at%2011.54.47%20AM.png)", 
+
+
+		"url(file:///Users/student/Desktop/Screen%20Shot%202021-04-12%20at%2011.59.10%20AM.png", 
+
+		"url(file:///Users/student/Desktop/Screen%20Shot%202021-04-12%20at%2011.54.54%20AM.png)", 
+
+
+		"url(file:///Users/student/Desktop/Screen%20Shot%202021-04-12%20at%2011.54.56%20AM.png)", 
+
+
+		"url(file:///Users/student/Desktop/Screen%20Shot%202021-04-12%20at%2011.54.52%20AM.png)"];
+
+		
+
+		box.addEventListener("click", function(){
+			var randomNumber = Math.round(6*Math.random())
+			
+
+			box.style.backgroundImage = routes[randomNumber]
+
+			// box.innerHTML = routes[randomNumber]
+
+
+		})
+
+
+	</script>
+
+</body>
+</html>
