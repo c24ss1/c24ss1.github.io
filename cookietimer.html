@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>1000 DONUTS</title>
+
+<style type="text/css">
+h1{font-family: 'Oi', cursive;
+font-color:#ff73ad;}
+.turkey{
+background-size: contain;
+width:100px;
+background-repeat: no-repeat;
+height:100px;
+background-image:url(https://images.vexels.com/media/users/3/146872/isolated/preview/d6c9e172c97e70e3662f401605d89c8a-strawberry-doughnut-with-sprinkles-by-vexels.png);
+display: inline-block;
+margin:5px;
+}
+body{
+
+    background-color:lightblue;
+
+ } 
+</style>
+</head>
+<body>
+
+
+<center><h1>1000 DONUTS!</center>
+<script type="text/javascript">
+
+
+function makeBird (y){
+
+var x = document.createElement("div");
+x.classList.add('turkey');
+document.body.appendChild(x);
+
+x.innerText=y;
+
+}
+
+for (var counter=0; counter<1000; counter=counter+1) {makeBird(counter + 1)}
+
+</script>
+
+</body>
+</html>

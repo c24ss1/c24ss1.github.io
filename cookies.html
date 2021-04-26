@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+    .cookies {
+        width: 100px;
+        height: 125px;
+        margin: 5px;
+        display: inline-block;
+        background-size: contain;
+        background-image: url(https://www.krispykreme.com/App_Themes/krispykremenew/Content/images/loyalty/reward-doughnut.png);
+    }
+    
+	</style>
+
+</head>
+<body>
+	<center>
+		<h1>This is my cookie timer</h1>
+	</center>
+
+<script type="text/javascript">
+	
+    function makeCookie(input) {
+
+
+        var cookie = document.createElement('div'); //this creates a div tag//
+
+        cookie.classList.add('cookies'); //this gives the div tag the class of cookies//
+
+        document.body.appendChild(cookie) //this puts the div with the class of cookies in the body//
+
+        cookie.innerText = input;
+
+    }
+
+// setInterval(makeCookie, 250)
+
+for(var i=0; i<1001; i = i+100){
+	makeCookie(i)}
+
+
+TRY TO MAKE 20 STACKS OF COOKIES 
+
+(EXTRA: TRY TO MAKE THE NUMBERS IN THE COOKIES ONLY BE EVEN.)
+
+    
+
+</script>
+</body>
+</html>
