@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		#gunks{
+			width:500px;
+			height:650px;
+/*			background-color:red;
+*/			background-size:contain;
+			background-repeat:no-repeat;
+
+			/*background-image:url(https://cdn2.apstatic.com/photos/climb/113715013_medium_1508193862.jpg);*/
+		}
+		h2{
+			font-family: 
+
+		}
+		body{background-color: #e2bdff;}
+
+		}
+	</style>
+</head>
+<body>
+
+	<center><h2>HAPPY MOTHERS DAY!</h2>
+
+		<div id="gunks"></div>
+
+	<script type="text/javascript">
+		var box = document.getElementById("gunks");
+
+
+		var routes = [
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_0708.jpg)", 
+
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_0869.jpg)", 
+
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_0903.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_1371.jpg)", 
+
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_5699.jpg)", 
+
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_5722.jpg)",
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_5947.jpg)",
+
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_8951.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_8967.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_9022.jpg)",  
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_9093.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_9101.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_9112.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/IMG_9125.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1160625.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1160858.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1170187.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1170215.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1170237.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1180350.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1180403.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1180505.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1190105.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1190110.jpg)", 
+
+"url(file:///Users/student/Desktop/comp%20sci%20photos/P1190161.jpg)", 
+
+
+];
+
+		
+
+		box.addEventListener("click", function(){
+			var randomNumber = Math.round(19*Math.random())
+			
+
+			box.style.backgroundImage = routes[randomNumber]
+
+			// box.innerHTML = routes[randomNumber]
+
+
+		})
+
+
+	</script>
+
+	</center>
+
+</body>
+</html>
